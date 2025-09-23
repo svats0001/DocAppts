@@ -1,0 +1,14 @@
+.loginForm {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.linkStyle {
+    color: blue;
+    text-decoration: underline;
+}
+
+.errorMessage {
+    color: red;
+}
