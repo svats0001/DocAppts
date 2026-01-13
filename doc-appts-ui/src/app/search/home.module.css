@@ -1,0 +1,135 @@
+.alignment {
+    max-width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.filterContainer {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.specialtyDiv {
+    /*position: relative;*/
+    width: 100px;
+    /*margin-inline: auto;*/
+    text-align: center;
+}
+
+.billingDiv {
+    /*position: relative;*/
+    width: 100px;
+    /*margin-inline: auto;*/
+    text-align: center;
+}
+
+.specialtyText {
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 2px;
+}
+
+.specialtyText:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.downArrow {
+    position: absolute;
+    bottom: 0;
+}
+
+.filterDiv {
+    position: relative;
+    width: 200px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.card {
+    border: black 1px solid;
+    width: 700px;
+    height: 80px;
+    margin-bottom: 5px;
+    margin-inline: auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardThumbnail {
+    width: 75px;
+    height: 50px;
+    float: left;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.cardDetails {
+    padding: 10px;
+}
+
+.specialtyDropdown {
+    position: absolute;
+    width: 200px;
+    margin-inline: auto;
+    text-align: center;
+    z-index: 999;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.input {
+    height: 40px;
+    width: 300px;
+}
+
+.locationSearch {
+    height: 40px;
+    width: 300px;
+}
+
+.locationDropdown {
+    height: 180px;
+    width: 300px;
+    border: 1px solid black;
+    overflow: scroll;
+    position: absolute;
+    right: 433px;
+    z-index: 1000;
+    background-color: white;
+}
+
+.locationDropdown p:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+
+.searchButton {
+    height: 40px;
+    width: 100px;
+}
+
+.pageLinks {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.pageLinkButton {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font-family: arial, sans-serif;
+    color: #069;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px;
+}
