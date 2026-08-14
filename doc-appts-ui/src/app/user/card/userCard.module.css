@@ -1,0 +1,18 @@
+.cardInfo {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.card {
+    border: black 1px solid;
+    /*width: 900px;*/
+    height: 100px;
+    margin-bottom: 20px;
+    margin-inline: auto;
+    width: 400px;
+}
+
+.errorMessage {
+    color: red;
+}
